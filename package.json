@@ -1,17 +1,17 @@
 {
-  "name": "xauusd-m5-telegram-signal-bot",
-  "version": "1.0.0",
-  "description": "Automatic XAUUSD M5 Telegram signal bot",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "engines": {
-    "node": ">=18"
-  },
-  "dependencies": {
-    "axios": "^1.12.2",
-    "express": "^5.1.0",
-    "node-telegram-bot-api": "^0.66.0"
-  }
+"name": "money-making-machine-bot",
+"version": "1.0.0",
+"description": "Telegram XAUUSD trading signal bot using market structure, FVG, and order blocks",
+"main": "server.js",
+"scripts": {
+"start": "node server.js"
+},
+"dependencies": {
+"axios": "^1.7.9",
+"express": "^4.21.2",
+"node-telegram-bot-api": "^0.66.0"
+},
+"engines": {
+"node": ">=20"
+}
 }
